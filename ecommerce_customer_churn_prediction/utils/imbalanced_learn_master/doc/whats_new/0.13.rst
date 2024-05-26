@@ -1,0 +1,24 @@
+.. _changes_0_13:
+
+Version 0.13.0 (Under development)
+==================================
+
+**TBD**
+
+Changelog
+---------
+
+Bug fixes
+.........
+
+Compatibility
+.............
+
+- Compatibility with scikit-learn 1.5
+  :pr:`1074` by :user:`Guillaume Lemaitre <glemaitre>`.
+
+Deprecations
+............
+
+Enhancements
+............
