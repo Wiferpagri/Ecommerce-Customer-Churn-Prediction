@@ -1,7 +1,7 @@
 # Ecommerce Customer Churn Prediction
 
 ## Overview
-This project aims to [brief description of the project objectives and goals]. The main focus is to [describe the main focus, e.g., analyze a specific dataset, build a predictive model, perform data visualization, etc.]. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning.
+This project aims to predict customer churn from an ecommerce. The main focus is to build a predictive model that with high accuracy and avoiding overfitting. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,14 +11,13 @@ This project aims to [brief description of the project objectives and goals]. Th
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Installation
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/Wiferpagri/repo-name.git
-cd repo-name
+git clone https://github.com/Wiferpagri/Ecommerce-Customer-Churn-Prediction.git
+cd Ecommerce-Customer-Churn-Prediction
 pip install -r requirements.txt
 ```
 
@@ -86,7 +85,7 @@ You can also explore individual notebooks in the `notebooks` directory to see th
 ---
 
 ## Datasets
-The data used in this project is sourced from [mention source, e.g., Kaggle, UCI Machine Learning Repository, etc.]. The datasets are stored in the data/ directory:
+The data used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data). The datasets are stored in the data/ directory:
 
 * `raw/` contains the original, unprocessed data.
 * `interim/` contains intermediate data that has been transformed.
@@ -111,6 +110,3 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 This project is licensed under the MIT.
-
-## Acknowledgements
-I would like to thank [mention any individuals, organizations, or resources you want to acknowledge] for their support and contributions to this project.
