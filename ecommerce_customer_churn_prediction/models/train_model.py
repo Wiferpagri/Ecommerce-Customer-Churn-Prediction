@@ -1,11 +1,8 @@
-from xgboost import XGBClassifier
+from sklearn.svm import SVC
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 def train_model(X_train, y_train):
-    model = XGBClassifier(colsample_bytree=0.8,
-                          learning_rate=0.1,
-                          max_depth=7,
-                          n_estimators=200,
-                          subsample=1.0,
-                          random_state=42)
+    model = SVC()
     model.fit(X_train, y_train)
     return model

@@ -1,8 +1,11 @@
 import argparse
+import warnings
 from ecommerce_customer_churn_prediction.data.make_dataset import load_data
 from ecommerce_customer_churn_prediction.features.build_features import preprocess_data
 from ecommerce_customer_churn_prediction.models.train_model import train_model
 from ecommerce_customer_churn_prediction.models.predict_model import evaluate_model
+
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train and evaluate a model.")
@@ -20,7 +23,11 @@ def main():
     model = train_model(X_train, y_train)
     
     print('Model evaluation on the test data:')
-    evaluate_model(model, X_test, y_test)
+    accuracy, conf_matrix, pos_accuracy, neg_accuracy = evaluate_model(model, X_test, y_test)
+    print(f'General Accuracy: {accuracy}')
+    print(f'Positive Accuracy: {pos_accuracy}')
+    print(f'Negative Accuracy: {neg_accuracy}')
+    print(f'Confusion Matrix: {conf_matrix}')
 
 if __name__ == "__main__":
     main()

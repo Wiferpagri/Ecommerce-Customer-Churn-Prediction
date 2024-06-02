@@ -3,7 +3,7 @@
 
 ### Images ###
 # JPEG
-*.jpg
+# *.jpg
 *.jpeg
 *.jpe
 *.jif
@@ -50,7 +50,7 @@
 *.svgz
 
 # Portable Document Format
-*.pdf
+# *.pdf
 
 # X BitMap
 *.xbm
@@ -322,5 +322,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Git Keep
+.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,images,jupyternotebooks

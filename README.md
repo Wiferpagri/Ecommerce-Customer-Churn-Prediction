@@ -1,7 +1,10 @@
 # Ecommerce Customer Churn Prediction
 
 ## Overview
-This project aims to predict customer churn from an ecommerce. The main focus is to build a predictive model that with high accuracy and avoiding overfitting. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning.
+This project aims to predict customer churn from an ecommerce. The main focus is to build a predictive model that with accuracy over 70%. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning.
+
+### Author
+William Pabon. [LinkedIn](linkedin.com/in/william-ferney-pabon-grimaldi-026846236/)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -90,7 +93,7 @@ The data used in this project is sourced from [Kaggle](https://www.kaggle.com/da
 * `raw/` contains the original, unprocessed data.
 * `interim/` contains intermediate data that has been transformed.
 * `processed/` contains cleaned and preprocessed data ready for analysis.
-* `external/` contains any additional data from external sources.
+* `external/` contains any additional data from external sources. Test data was generated using [Mostly AI](https://mostly.ai/blog/how-to-generate-synthetic-data)
 
 ## Results
 The results of the analysis and model performance are documented in the `reports/` directory. This includes:
