@@ -1,7 +1,7 @@
 # Ecommerce Customer Churn Prediction
 
 ## Overview
-This project aims to predict customer churn from an ecommerce. The main focus is to build a predictive model that with accuracy over 70%. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning.
+This project aims to predict customer churn from an ecommerce. The main focus is to build a predictive model with accuracy over 70% for both classes. The project leverages various data science techniques including data cleaning, exploratory data analysis (EDA), SMOTE, feature engineering, and machine learning.
 
 ### Author
 William Pabon. [LinkedIn](linkedin.com/in/william-ferney-pabon-grimaldi-026846236/)
